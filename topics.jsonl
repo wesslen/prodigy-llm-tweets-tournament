@@ -1,60 +1,26 @@
-{"id": 0, "prompt_args": {"topic": "Manchester United"}}
-{"id": 0, "prompt_args": {"topic": "Los Angeles Lakers"}}
-{"id": 0, "prompt_args": {"topic": "Real Madrid"}}
-{"id": 0, "prompt_args": {"topic": "New England Patriots"}}
-{"id": 0, "prompt_args": {"topic": "FC Barcelona"}}
-{"id": 0, "prompt_args": {"topic": "New York Yankees"}}
-{"id": 0, "prompt_args": {"topic": "Golden State Warriors"}}
-{"id": 0, "prompt_args": {"topic": "Bayern Munich"}}
-{"id": 0, "prompt_args": {"topic": "Dallas Cowboys"}}
-{"id": 0, "prompt_args": {"topic": "Chicago Bulls"}}
-{"id": 1, "prompt_args": {"topic": "Angela Merkel"}}
-{"id": 1, "prompt_args": {"topic": "Justin Trudeau"}}
-{"id": 1, "prompt_args": {"topic": "Joe Biden"}}
-{"id": 1, "prompt_args": {"topic": "Xi Jinping"}}
-{"id": 1, "prompt_args": {"topic": "Boris Johnson"}}
-{"id": 1, "prompt_args": {"topic": "Emmanuel Macron"}}
-{"id": 1, "prompt_args": {"topic": "Jacinda Ardern"}}
-{"id": 1, "prompt_args": {"topic": "Vladimir Putin"}}
-{"id": 1, "prompt_args": {"topic": "Jair Bolsonaro"}}
-{"id": 1, "prompt_args": {"topic": "Kamala Harris"}}
-{"id": 2, "prompt_args": {"topic": "iPhone"}}
-{"id": 2, "prompt_args": {"topic": "PlayStation 5"}}
-{"id": 2, "prompt_args": {"topic": "Tesla Model S"}}
-{"id": 2, "prompt_args": {"topic": "Nike Air Jordan"}}
-{"id": 2, "prompt_args": {"topic": "Coca-Cola"}}
-{"id": 2, "prompt_args": {"topic": "Amazon Echo"}}
-{"id": 2, "prompt_args": {"topic": "GoPro HERO9"}}
-{"id": 2, "prompt_args": {"topic": "Samsung Galaxy S21"}}
-{"id": 2, "prompt_args": {"topic": "Dyson V11"}}
-{"id": 2, "prompt_args": {"topic": "Fitbit Versa"}}
-{"id": 3, "prompt_args": {"topic": "Tom Hanks"}}
-{"id": 3, "prompt_args": {"topic": "Beyoncé"}}
-{"id": 3, "prompt_args": {"topic": "Leonardo DiCaprio"}}
-{"id": 3, "prompt_args": {"topic": "Jennifer Lawrence"}}
-{"id": 3, "prompt_args": {"topic": "Dwayne Johnson"}}
-{"id": 3, "prompt_args": {"topic": "Angelina Jolie"}}
-{"id": 3, "prompt_args": {"topic": "Brad Pitt"}}
-{"id": 3, "prompt_args": {"topic": "Taylor Swift"}}
-{"id": 3, "prompt_args": {"topic": "Chris Hemsworth"}}
-{"id": 3, "prompt_args": {"topic": "Scarlett Johansson"}}
-{"id": 4, "prompt_args": {"topic": "Artificial Intelligence"}}
-{"id": 4, "prompt_args": {"topic": "Machine Learning"}}
-{"id": 4, "prompt_args": {"topic": "Blockchain"}}
-{"id": 4, "prompt_args": {"topic": "Internet of Things"}}
-{"id": 4, "prompt_args": {"topic": "Cybersecurity"}}
-{"id": 4, "prompt_args": {"topic": "Big Data"}}
-{"id": 4, "prompt_args": {"topic": "Cloud Computing"}}
-{"id": 4, "prompt_args": {"topic": "Augmented Reality"}}
-{"id": 4, "prompt_args": {"topic": "Virtual Reality"}}
-{"id": 4, "prompt_args": {"topic": "Quantum Computing"}}
-{"id": 5, "prompt_args": {"topic": "Climate Change"}}
-{"id": 5, "prompt_args": {"topic": "Gender Equality"}}
-{"id": 5, "prompt_args": {"topic": "Racial Justice"}}
-{"id": 5, "prompt_args": {"topic": "LGBTQ+ Rights"}}
-{"id": 5, "prompt_args": {"topic": "Human Rights"}}
-{"id": 5, "prompt_args": {"topic": "Environmental Conservation"}}
-{"id": 5, "prompt_args": {"topic": "Income Inequality"}}
-{"id": 5, "prompt_args": {"topic": "Refugee Rights"}}
-{"id": 5, "prompt_args": {"topic": "Gun Control"}}
-{"id": 5, "prompt_args": {"topic": "Education Access"}}
+{"id": 0, "prompt_args": {"topic": "minimum wage", "scenario": "An upcoming bill is up for debate in the US Congress"}}
+{"id": 0, "prompt_args": {"topic": "COVID-19 vaccine distribution", "scenario": "A new COVID-19 vaccine distribution plan is being implemented in a country"}}
+{"id": 0, "prompt_args": {"topic": "trade tariffs", "scenario": "Two countries are engaging in a trade war, imposing tariffs on each other's goods"}}
+{"id": 0, "prompt_args": {"topic": "income inequality", "scenario": "A report reveals the growing wealth gap between the rich and the poor"}}
+{"id": 0, "prompt_args": {"topic": "immigration policies", "scenario": "A country is considering implementing stricter immigration policies"}}
+{"id": 1, "prompt_args": {"topic": "climate change activism", "scenario": "Youth-led climate change activists organize a global strike for climate action"}}
+{"id": 1, "prompt_args": {"topic": "gender equality movements", "scenario": "A women's rights movement advocates for equal pay and opportunities"}}
+{"id": 1, "prompt_args": {"topic": "racial justice campaigns", "scenario": "Protests erupt following an incident of racial discrimination and police violence"}}
+{"id": 1, "prompt_args": {"topic": "LGBTQ+ rights advocacy", "scenario": "A country introduces legislation to legalize same-sex marriage"}}
+{"id": 1, "prompt_args": {"topic": "mental health awareness", "scenario": "A campaign is launched to destigmatize mental health issues and promote access to mental healthcare"}}
+{"id": 2, "prompt_args": {"topic": "e-commerce strategies", "scenario": "A retail business is transitioning to an online e-commerce model to expand its reach"}}
+{"id": 2, "prompt_args": {"topic": "start-up funding options", "scenario": "An entrepreneur explores different funding options to launch a tech startup"}}
+{"id": 2, "prompt_args": {"topic": "digital marketing trends", "scenario": "A marketing team adopts new digital marketing strategies to boost online sales"}}
+{"id": 2, "prompt_args": {"topic": "customer relationship management", "scenario": "A company implements a customer relationship management system to enhance customer satisfaction"}}
+{"id": 2, "prompt_args": {"topic": "innovation in business models", "scenario": "A traditional business disrupts the market with an innovative business model"}}
+{"id": 3, "prompt_args": {"topic": "retirement planning", "scenario": "An individual seeks advice on planning for retirement and building a pension fund"}}
+{"id": 3, "prompt_args": {"topic": "stock market investing", "scenario": "An investor researches potential stocks to invest in for long-term growth"}}
+{"id": 3, "prompt_args": {"topic": "credit card management", "scenario": "Someone develops a strategy to manage credit card debt and improve their credit score"}}
+{"id": 3, "prompt_args": {"topic": "real estate investment strategies", "scenario": "An investor explores different strategies for generating passive income through real estate"}}
+{"id": 3, "prompt_args": {"topic": "student loan repayment options", "scenario": "A recent graduate looks for information on different student loan repayment plans"}}
+{"id": 4, "prompt_args": {"topic": "healthcare reform", "scenario": "A country considers implementing comprehensive healthcare reform to improve access and affordability"}}
+{"id": 4, "prompt_args": {"topic": "voting rights", "scenario": "A debate arises over proposed changes to voting laws, potentially affecting voter access and participation"}}
+{"id": 4, "prompt_args": {"topic": "foreign policy decisions", "scenario": "A government makes crucial foreign policy decisions regarding diplomatic relations and international agreements"}}
+{"id": 4, "prompt_args": {"topic": "taxation policies", "scenario": "A country debates changes to tax policies, including rates and deductions"}}
+{"id": 4, "prompt_args": {"topic": "campaign finance regulations", "scenario": "A country explores regulations to address concerns of campaign finance transparency and influence"}}
+
