@@ -1,0 +1,60 @@
+{"id": 0, "prompt_args": {"topic": "Manchester United"}}
+{"id": 0, "prompt_args": {"topic": "Los Angeles Lakers"}}
+{"id": 0, "prompt_args": {"topic": "Real Madrid"}}
+{"id": 0, "prompt_args": {"topic": "New England Patriots"}}
+{"id": 0, "prompt_args": {"topic": "FC Barcelona"}}
+{"id": 0, "prompt_args": {"topic": "New York Yankees"}}
+{"id": 0, "prompt_args": {"topic": "Golden State Warriors"}}
+{"id": 0, "prompt_args": {"topic": "Bayern Munich"}}
+{"id": 0, "prompt_args": {"topic": "Dallas Cowboys"}}
+{"id": 0, "prompt_args": {"topic": "Chicago Bulls"}}
+{"id": 1, "prompt_args": {"topic": "Angela Merkel"}}
+{"id": 1, "prompt_args": {"topic": "Justin Trudeau"}}
+{"id": 1, "prompt_args": {"topic": "Joe Biden"}}
+{"id": 1, "prompt_args": {"topic": "Xi Jinping"}}
+{"id": 1, "prompt_args": {"topic": "Boris Johnson"}}
+{"id": 1, "prompt_args": {"topic": "Emmanuel Macron"}}
+{"id": 1, "prompt_args": {"topic": "Jacinda Ardern"}}
+{"id": 1, "prompt_args": {"topic": "Vladimir Putin"}}
+{"id": 1, "prompt_args": {"topic": "Jair Bolsonaro"}}
+{"id": 1, "prompt_args": {"topic": "Kamala Harris"}}
+{"id": 2, "prompt_args": {"topic": "iPhone"}}
+{"id": 2, "prompt_args": {"topic": "PlayStation 5"}}
+{"id": 2, "prompt_args": {"topic": "Tesla Model S"}}
+{"id": 2, "prompt_args": {"topic": "Nike Air Jordan"}}
+{"id": 2, "prompt_args": {"topic": "Coca-Cola"}}
+{"id": 2, "prompt_args": {"topic": "Amazon Echo"}}
+{"id": 2, "prompt_args": {"topic": "GoPro HERO9"}}
+{"id": 2, "prompt_args": {"topic": "Samsung Galaxy S21"}}
+{"id": 2, "prompt_args": {"topic": "Dyson V11"}}
+{"id": 2, "prompt_args": {"topic": "Fitbit Versa"}}
+{"id": 3, "prompt_args": {"topic": "Tom Hanks"}}
+{"id": 3, "prompt_args": {"topic": "Beyoncé"}}
+{"id": 3, "prompt_args": {"topic": "Leonardo DiCaprio"}}
+{"id": 3, "prompt_args": {"topic": "Jennifer Lawrence"}}
+{"id": 3, "prompt_args": {"topic": "Dwayne Johnson"}}
+{"id": 3, "prompt_args": {"topic": "Angelina Jolie"}}
+{"id": 3, "prompt_args": {"topic": "Brad Pitt"}}
+{"id": 3, "prompt_args": {"topic": "Taylor Swift"}}
+{"id": 3, "prompt_args": {"topic": "Chris Hemsworth"}}
+{"id": 3, "prompt_args": {"topic": "Scarlett Johansson"}}
+{"id": 4, "prompt_args": {"topic": "Artificial Intelligence"}}
+{"id": 4, "prompt_args": {"topic": "Machine Learning"}}
+{"id": 4, "prompt_args": {"topic": "Blockchain"}}
+{"id": 4, "prompt_args": {"topic": "Internet of Things"}}
+{"id": 4, "prompt_args": {"topic": "Cybersecurity"}}
+{"id": 4, "prompt_args": {"topic": "Big Data"}}
+{"id": 4, "prompt_args": {"topic": "Cloud Computing"}}
+{"id": 4, "prompt_args": {"topic": "Augmented Reality"}}
+{"id": 4, "prompt_args": {"topic": "Virtual Reality"}}
+{"id": 4, "prompt_args": {"topic": "Quantum Computing"}}
+{"id": 5, "prompt_args": {"topic": "Climate Change"}}
+{"id": 5, "prompt_args": {"topic": "Gender Equality"}}
+{"id": 5, "prompt_args": {"topic": "Racial Justice"}}
+{"id": 5, "prompt_args": {"topic": "LGBTQ+ Rights"}}
+{"id": 5, "prompt_args": {"topic": "Human Rights"}}
+{"id": 5, "prompt_args": {"topic": "Environmental Conservation"}}
+{"id": 5, "prompt_args": {"topic": "Income Inequality"}}
+{"id": 5, "prompt_args": {"topic": "Refugee Rights"}}
+{"id": 5, "prompt_args": {"topic": "Gun Control"}}
+{"id": 5, "prompt_args": {"topic": "Education Access"}}
