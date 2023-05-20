@@ -1,4 +1,4 @@
-# Prodigy Tournament on Created Tweets: Inform or Virality
+# Prodigy Tournament on Tweet Generation: Inform or Virality
 
 ![](img/prodigy.png)
 
