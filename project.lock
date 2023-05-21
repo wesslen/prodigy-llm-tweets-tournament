@@ -1,0 +1,8 @@
+dotenv-run:
+  cmd: python -m spacy run dotenv-run
+  script:
+    - dotenv run -- python -c 'import os; print(os.environ)'
+  deps: []
+  outs: []
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9

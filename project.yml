@@ -1,0 +1,89 @@
+title: "Prodigy LLM Prompt Tournament on Generating Tweets: Inform or Virality"
+description: |
+  This project runs a prompt tournament con generating tweets using
+  different prompts for given topics and scenarios.
+spacy_version: ">=3.5.0,<4.0.0"
+
+# Variables can be referenced across the project.yml using ${vars.var_name}
+vars:
+  config: "config.cfg"
+  name: "tweet_tournament"
+  version: "1.0.0"
+  topics-prompt: | 
+    Generate topics that social media managers create social media content about.
+    Choose topics that have the significant economic, social or political impact.
+
+# These are the directories that the project needs. The project CLI will make
+# sure that they always exist.
+directories: ["assets", "corpus", "scripts", "metrics"]
+
+# Assets that should be downloaded or available in the directory. We're shipping
+# them with the project, so they won't have to be downloaded. But the
+# 'project assets' command still lets you verify that the checksums match.
+assets:
+  - dest: "assets/topics.jsonl"
+    description: "Topics and scenarios to be generated"
+  - dest: "assets/prompt_folder/prompt1.jinja2"
+    description: "Prompt instructing to inform the reader. The goal is education."
+  - dest: "assets/prompt_folder/prompt2.jinja2"
+    description: "Prompt instructing to attract the reader. The goal is virality."
+
+# Workflows are sequences of commands (see below) executed in order. You can
+# run them via "spacy project run [workflow]". If a commands's inputs/outputs
+# haven't changed, it won't be re-run.
+workflows:
+  setup:
+    - install
+  prodigy:
+    - prodigy-tournament-tweets
+
+# Project commands, specified in a style similar to CI config files (e.g. Azure
+# pipelines). The name is the command name that lets you trigger the command
+# via "spacy project run [command] [path]". The help message is optional and
+# shown when executing "spacy project run [optional command] [path] --help".
+commands:
+  - name: "install"
+    help: "Install packages"
+    script:
+      - "python3 -m pip install --upgrade pip"
+      - "python3 -m pip install -r requirements.txt"
+      - "dotenv run -- python3 -m pip install prodigy==1.12a1 -f \"https://xxxx@download.prodi.gy\""
+
+  - name: "clean-files"
+    script:
+      - "rm -rf data/*"
+    help: "Clean all files in data/ folder"
+
+  - name: "clean-venv"
+    script:
+      - "rm -rf venv"
+    help: "Remove the virtual environment"
+
+  - name: "clean-prodigy-tweets"
+    script:
+      - "python3 -m prodigy drop tweets"
+    help: "Drop the tweets dataset from Prodigy"
+
+  - name: "generate-topics"
+    script:
+      - "dotenv run -- python3 -m prodigy terms.openai.fetch ${vars.topics-prompt} assets/topics.jsonl --n 10"
+    help: "Generate topics for tweet generation"
+
+  - name: "prodigy-tweets"
+    script:
+      - "dotenv run -- python3 -m prodigy ab.openai.prompts tweets assets/topics.jsonl assets/display-template.jinja2 assets/prompt_folder/prompt1.jinja2 assets/prompt_folder/prompt2.jinja2 --repeat 4"
+    help: "A/B evaluation of prompts"
+    deps:
+      - "assets/topics.jsonl"
+      - "assets/display-template.jinja2"
+      - "assets/prompt_folder/prompt1.jinja2"
+      - "assets/prompt_folder/prompt2.jinja2"
+
+  - name: "prodigy-tournament-tweets"
+    script:
+      - "dotenv run -- python3 -m prodigy ab.openai.tournament tweets-tournament assets/topics.jsonl assets/display-template.jinja2 assets/prompt_folder"
+    help: "Prodigy tournament for tweet generation based on topics"
+    deps:
+      - "assets/topics.jsonl"
+      - "assets/display-template.jinja2"
+      - "assets/prompt_folder"
