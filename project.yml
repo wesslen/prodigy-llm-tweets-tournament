@@ -47,7 +47,7 @@ commands:
     script:
       - "python3 -m pip install --upgrade pip"
       - "python3 -m pip install -r requirements.txt"
-      - "dotenv run -- python3 -m pip install prodigy==1.12a1 -f \"https://xxxx@download.prodi.gy\""
+      - "dotenv run -- python3 -m pip install --pre prodigy -f \"https://xxxx@download.prodi.gy\""
 
   - name: "clean-files"
     script:
